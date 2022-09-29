@@ -5,7 +5,7 @@
     <!-- import javascript variables and functions -->
     <script src="app.js" defer></script>
     <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <!-- page content goes into <body> -->
@@ -13,15 +13,33 @@
     <div id="cs1300-gallery">
       <h1>Welcome to my bakery</h1>
       <p>Add your own images and styles!</p>
+      <div id="jeff">
+        <img class="jeff" src="./assets/jeff.jpg" alt="jeff watching u" />
+      </div>
 
       <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
       <div class="gallery-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/cake.jpeg" alt="yum" />
+        <img
+          class="gallery-item"
+          src="./assets/Vanilla-Cupcakes-3.jpeg"
+          alt="yum"
+        />
+        <img class="gallery-item" src="./assets/scones.jpeg" alt="yum" />
+        <img class="gallery-item" src="./assets/macaroon.jpeg" alt="yum" />
+        <img class="gallery-item" src="./assets/croissant.jpeg" alt="yum" />
+        <img
+          class="gallery-item"
+          src="./assets/chocolate-chip-muffins-featured.jpeg"
+          alt="yum"
+        />
       </div>
 
       <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="updatePage()">Press this button to display some fruit data</button> -->
+      <button onclick="updatePage()">
+        Press this button to display some fruit data
+      </button>
+      -->
     </div>
   </body>
-
 </html>
